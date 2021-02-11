@@ -1,0 +1,17 @@
+.sort-bar-sort-categories {
+    display: grid;
+    grid-template-areas:
+                        "a a"
+                        "b b";
+    grid-template-columns: 1fr;
+
+    height: 11em;
+    padding: 0.5em;
+    align-content: center;
+}
+
+.sort-bar-sort-categories article {
+    display: grid;
+    grid-area: b;
+    grid-template-columns: 1fr 5fr;
+}

@@ -1,0 +1,33 @@
+.sort-bar-price-range{
+    display: grid;
+    grid-template-areas:
+                        "a a"
+                        "b c"
+                        "b c";
+    height: 11em;
+    padding: 0.5em;
+    align-content: center;
+}
+.sort-bar-price-range-from{
+    display: grid;
+    grid-area: b;
+
+    grid-template-columns: 1fr;
+}
+
+.sort-bar-price-range-to{
+    display: grid;
+    grid-area: c;
+    grid-template-columns: 1fr;
+}
+
+.sort-bar-price-range-from p{
+    font-size: 0.75em;
+}
+
+.sort-bar-price-range-to p{
+    font-size: 0.75em;
+}
+.sort-bar-price-range input{
+    width: 5em;
+}

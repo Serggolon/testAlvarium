@@ -1,0 +1,9 @@
+.goods-list-bar {
+    display: grid;
+    grid-area: b;
+    height: 50em;
+    overflow: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.4em;
+
+}

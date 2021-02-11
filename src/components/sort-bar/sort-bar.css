@@ -1,0 +1,7 @@
+.sort-bar{
+    display: grid;
+    grid-area: a;
+    grid-template-columns: 1fr;
+   align-content: start;
+    width: 15em;
+}
