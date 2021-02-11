@@ -1,0 +1,66 @@
+.new-good-bar{
+    grid-area: c;
+    border-top: 0.13em solid black;
+    padding: 1em;
+
+}
+
+.new-good-bar-form{
+    display: grid;
+    grid-template-areas:
+            "a b"
+            "c b"
+            "d d "
+            "e e";
+    grid-gap: 0.5em;
+    font-size: 1.2em;
+}
+
+.new-good-bar-form_name{
+    grid-area: a;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    justify-self: right;
+}
+
+.new-good-bar-form_name input{
+    width: 13em;
+}
+
+.new-good-bar-form_textarea{
+    grid-area: b;
+    width: 15em;
+   height: 10em;
+}
+
+.new-good-bar-form_price{
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    justify-self: right;
+}
+
+.new-good-bar-form_price input[type=number]{
+    width: 13em;
+}
+
+.new-good-bar-form_img {
+    grid-area: d;
+    height: 3em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    justify-self: center;
+}
+
+.new-good-bar-form button{
+    grid-area: e;
+    width: 8em;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-self: center;
+}
+

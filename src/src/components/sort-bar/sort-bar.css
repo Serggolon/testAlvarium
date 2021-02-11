@@ -1,0 +1,8 @@
+.sort-bar{
+    display: grid;
+    grid-area: a;
+    grid-template-columns: 1fr;
+   align-content: start;
+    width: 15em;
+    border-right: 0.13em solid black;
+}
