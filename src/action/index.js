@@ -1,7 +1,7 @@
-import fetchSettings from "./settings-list";
+import sortOrder from "./sort-parameters";
 
 
 export {
-    fetchSettings,
+    sortOrder,
 
 };

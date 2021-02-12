@@ -12,8 +12,8 @@ const GoodsListBarItem = ({name, price, image, description}) => {
                     <article className={"goods-list-bar-item__article text-bold"}>
                         {name}</article>
                     <article className={"goods-list-bar-item__article text-bold"}>
-                        {price}</article>
-                    <article className={"goods-list-bar-item__article"}>
+                        {price} UAH</article>
+                    <article className={"goods-list-bar-item__article_description"}>
                         {description}</article>
 
             </section>

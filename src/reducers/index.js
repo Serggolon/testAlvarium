@@ -1,9 +1,9 @@
-// import updateSettingsList from './settings-list';
+import updateSortParameters from './sort-parameters';
 
 
 const reducer = (state, action) => {
     return {
-        // settingsList: updateSettingsList(state, action),
+        sortParameters: updateSortParameters(state, action),
 
     };
 };

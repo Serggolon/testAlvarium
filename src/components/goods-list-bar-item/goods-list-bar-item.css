@@ -18,10 +18,12 @@
 }
 
 .goods-list-bar-item__article {
-    color: black;
-   height: 3em;
+    height: 1.5em;
+    font-size: 1em;
+}
+
+.goods-list-bar-item__article_description{
+    height: 5em;
     overflow: auto;
     font-size: 1em;
-
-
 }
